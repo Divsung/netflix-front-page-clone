@@ -2,3 +2,22 @@
     margin: 0;
     padding: 0;
 }
+
+/* Navbar */
+
+.navbar{
+    width: 100%;
+    height: 80px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+img{
+    width: 88.8px;
+    height: 24px;
+}
+
+.netflix-logo{
+    margin-right:850px;
+}
