@@ -36,7 +36,6 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* margin-left: 20px; */
     width: 505.83px;
 }
 
@@ -72,3 +71,80 @@ img{
     padding-top: -13px;
 }
 
+.signin-btn:hover{
+    background-color: #c40812;
+    cursor: pointer;
+}
+
+.main-heading{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.sub-heading1{
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sub-heading2{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.email-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.email-input{
+    width: 350px;
+    height: 56px;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 10px;
+    background-color: #0e0c0cab;
+    font-weight: 545;
+    font-size: 18px;
+    padding-left: 20px;
+    border: 0.5px solid #777474;
+}
+
+.email-input::placeholder{
+    color: #b3adad;
+}
+
+.get-started-btn{
+    width: 250px;
+    height: 56px;
+    background-color: red;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.get-started-btn:hover{
+    background-color: #c40812;
+    cursor: pointer;
+}
+
+#arrow-sign{
+    padding-left: 10px;
+}
+
+.signin-btn,
+.get-started-btn{
+    transition: background-color 0.3s ease;
+}
